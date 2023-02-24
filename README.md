@@ -47,4 +47,4 @@ DB_REMOTE_ACCESS=false
 
 ## LICENSE
 
-The MS package is an open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The DB package is an open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
