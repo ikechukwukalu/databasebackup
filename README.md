@@ -1,10 +1,10 @@
 # DATABASE BACKUP
 
-<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/ikechukwukalu/databasebackup?style=flat-square)](https://packagist.org/packages/ikechukwukalu/databasebackup)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ikechukwukalu/databasebackup?style=flat-square)](https://packagist.org/packages/ikechukwukalu/databasebackup)
 [![Quality Score](https://img.shields.io/scrutinizer/quality/g/ikechukwukalu/databasebackup/main?style=flat-square)](https://scrutinizer-ci.com/g/ikechukwukalu/databasebackup/)
 [![Github Workflow Status](https://img.shields.io/github/actions/workflow/status/ikechukwukalu/databasebackup/databasebackup.yml?branch=main&style=flat-square)](https://github.com/ikechukwukalu/databasebackup/actions/workflows/databasebackup.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/ikechukwukalu/databasebackup?style=flat-square)](https://packagist.org/packages/ikechukwukalu/databasebackup)
-[![Licence](https://img.shields.io/packagist/l/ikechukwukalu/databasebackup?style=flat-square)](https://github.com/ikechukwukalu/databasebackup/blob/main/LICENSE.md) -->
+[![Licence](https://img.shields.io/packagist/l/ikechukwukalu/databasebackup?style=flat-square)](https://github.com/ikechukwukalu/databasebackup/blob/main/LICENSE.md)
 
 A laravel package for backing up database with local and remote connection.
 
