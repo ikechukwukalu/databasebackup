@@ -45,6 +45,10 @@ DB_BACKUP_FILE_EXT=".sql"
 DB_REMOTE_ACCESS=false
 ```
 
+## PUBLISH CONFIG
+
+- `php artisan vendor:publish --tag=db-config`
+
 ## LICENSE
 
 The DB package is an open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
