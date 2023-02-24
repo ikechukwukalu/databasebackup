@@ -1,0 +1,45 @@
+{
+    "name": "ikechukwukalu/databasebackup",
+    "description": "A laravel package for backing up database with local and remote connection.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ikechukwukalu\\Databasebackup\\": "src/",
+            "Ikechukwukalu\\Databasebackup\\Console\\Commands\\": "src/Console/Commands/",
+            "Ikechukwukalu\\Databasebackup\\Console\\": "src/Console/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ikechukwukalu\\Databasebackup\\Tests\\": "Tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "authors": [
+        {
+            "name": "Ikechukwu Kalu",
+            "email": "ea.ikechukwukalu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0|^8.1",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0",
+        "phpunit/phpunit": "^9.0|^10.0",
+        "php-parallel-lint/php-parallel-lint": "dev-develop"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ikechukwukalu\\Databasebackup\\DatabaseBackupServiceProvider"
+            ]
+        }
+    }
+}
