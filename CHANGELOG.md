@@ -1,6 +1,6 @@
 # v1.0.2
 
-- Updated package to accomodate Laravel
+- Updated package to accomodate Laravel 8
 
 ## v1.0.1
 
