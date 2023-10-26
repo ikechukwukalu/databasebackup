@@ -35,6 +35,6 @@ class DatabaseBackupCommand extends Command
         $output  = NULL;
 
         exec($command, $output, $returnVar);
-        $this->components->info('Database backup was successful.');
+        $this->info('Database backup was successful.');
     }
 }
