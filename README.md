@@ -23,7 +23,7 @@ composer require ikechukwukalu/databasebackup
 
 ## BACKUP DATABASE
 
-Set the following parameters in your `.env` file and run `php artisan database:backup` to backup database.
+Set the following parameters in your `.env` file and run `sudo php artisan database:backup` to backup database.
 
 ```shell
 DB_BACKUP_PATH="/db/backup/${APP_NAME}"
